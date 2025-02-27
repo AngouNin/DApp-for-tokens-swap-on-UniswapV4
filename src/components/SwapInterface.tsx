@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useAccount } from 'wagmi';
 import { ArrowDownUp, RefreshCw, AlertCircle } from 'lucide-react';
 import { getTokenList, TokenInfo } from '../utils/tokens';
@@ -91,9 +91,6 @@ const SwapInterface = () => {
     }
   };
 
-  const getTokenByAddress = (address: string) => {
-    return tokenList.find(token => token.address.toLowerCase() === address.toLowerCase());
-  };
 
   return (
     <div className="bg-gray-700 rounded-lg p-4">
