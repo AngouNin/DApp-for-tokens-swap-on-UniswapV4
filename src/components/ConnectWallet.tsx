@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { useAccount, useConnect, useDisconnect } from 'wagmi';
 import { injected } from 'wagmi/connectors';
 import { Wallet, LogOut } from 'lucide-react';

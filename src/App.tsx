@@ -1,6 +1,6 @@
-import React from 'react';
+// import React from 'react';
 import { createConfig, http, WagmiProvider, useAccount } from 'wagmi';
-import { injected } from 'wagmi/connectors';
+// import { injected } from 'wagmi/connectors';
 import { mainnet } from 'wagmi/chains';
 import { Wallet, AlertCircle } from 'lucide-react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
